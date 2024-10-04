@@ -11,7 +11,8 @@ export default function Home() {
             <Image
                 src={background}
                 alt="card-background-image"
-                className="absolute  w-full h-full object-cover"
+                className="fixed
+             m-h-full w-full h-full  object-cover min:w-full max:h-[full]: sm:w-[full] sm:h-[full] md:w-[full] md:h-[full]  lg-h-[full] "
             />
 
             {/* Container for Cards */}
@@ -51,7 +52,7 @@ export default function Home() {
                             className="w-full h-full object-cover transition-opacity duration-500 ease-in-out hover:opacity-0"
                         />
                     </div>
-                    <div className="absolute inset-0 bg-orange-200 rounded-lg shadow-lg p-5 opacity-0 hover:opacity-100 transition-opacity duration-500 ease-in-out flex flex-col items-center justify-center">
+                    <div className="absolute inset-0 bg-orange-200 rounded-lg shadow-lg p-5 opacity-0 hover:opacity-100 transition-opacity duration-500 ease-in-out flex flex-col items-center justify-center sm:w-[300px] md:w-[250px] lg:w-[300px] h-[300px]">
                         <Image
                             src={model}
                             alt="dummy"
@@ -72,10 +73,10 @@ export default function Home() {
                         <Image
                             src={flower}
                             alt="flower"
-                            className="w-full h-full object-cover transition-opacity duration-500 ease-in-out hover:opacity-0"
+                            className="w-full h-full object-cover transition-opacity duration-500 ease-in-out hover:opacity-0 sm:w-[300px] md:w-[250px] lg:w-[300px] "
                         />
                     </div>
-                    <div className="absolute inset-0 bg-orange-200 rounded-lg shadow-lg p-5 opacity-0 hover:opacity-100 transition-opacity duration-500 ease-in-out flex flex-col items-center justify-center">
+                    <div className="absolute inset-0 bg-orange-200 rounded-lg shadow-lg p-5 opacity-0 hover:opacity-100 transition-opacity duration-500 ease-in-out flex flex-col items-center justify-center sm:w-[300px] md:w-[250px] lg:w-[300px] h-[300px]">
                         <Image
                             src={model}
                             alt="dummy"
@@ -96,7 +97,7 @@ export default function Home() {
                         <Image
                             src={flower}
                             alt="flower"
-                            className="w-full h-full object-cover transition-opacity duration-500 ease-in-out hover:opacity-0"
+                            className="w-full h-full object-cover transition-opacity duration-500 ease-in-out hover:opacity-0 sm:w-[300px] md:w-[250px] lg:w-[300px] "
                         />
                     </div>
                     <div className="absolute inset-0 bg-orange-200 rounded-lg shadow-lg p-5 opacity-0 hover:opacity-100 transition-opacity duration-500 ease-in-out flex flex-col items-center justify-center">
